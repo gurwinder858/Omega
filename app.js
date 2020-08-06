@@ -12,6 +12,15 @@
 
 <script>
   // Your web app's Firebase configuration
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
   var firebaseConfig = {
     apiKey: "AIzaSyBxE9EuPre3m4FBBeM9hXbOmb5Q6FWRee4",
     authDomain: "hacking-f68cd.firebaseapp.com",
@@ -26,6 +35,7 @@
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 </script>
+
 
      
  
